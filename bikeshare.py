@@ -3,12 +3,13 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-
+#CSV File
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
               'washington': 'washington.csv' }
 MONTH_DATA = ('january','february','march','april','may','june')
 
+#User input
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -187,7 +188,7 @@ def display_data(df,first_request=0):
     if display_rows == 'yes':
         print(df[first_request:first_request+5])
         first_request = first_request + 5
-        display_data(df,first_request)
+        display_data(df,first_request)#recursive method
 
 
 

@@ -188,7 +188,7 @@ def display_data(df,first_request=0):
     if display_rows == 'yes':
         print(df[first_request:first_request+5])
         first_request = first_request + 5
-        display_data(df,first_request)
+        display_data(df,first_request)#recursive method
 
 
 

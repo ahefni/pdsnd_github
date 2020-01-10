@@ -5,7 +5,7 @@
 Bikea share Data analysis task 
 
 ### Description
-Bikeshare Data analysis
+Bikeshare Data analysis using python and pandas python library
 
 ### Files used
 bikeshare.py

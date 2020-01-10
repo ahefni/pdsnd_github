@@ -3,12 +3,13 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-
+#CSV File
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
               'washington': 'washington.csv' }
 MONTH_DATA = ('january','february','march','april','may','june')
 
+#User input
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
